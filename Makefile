@@ -10,7 +10,7 @@ test-sdist:
 	mkdir test && \
 	cd test && \
 	tar xf ../*.tar.gz && \
-	cd bitstruct-* && \
+	cd soundid-* && \
 	python3 setup.py test
 
 release-to-pypi:
