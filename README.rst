@@ -4,7 +4,11 @@
 About
 =====
 
-A Python package for...
+A Python package for sound identification.
+
+References:
+
+- https://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf
 
 Installation
 ============
