@@ -85,7 +85,7 @@ Contributing
 
    .. code-block:: text
 
-      pip install -r requirements.txt
+      $ pip install -r requirements.txt
 
 #. Implement the new feature or bug fix.
 
@@ -96,7 +96,7 @@ Contributing
 
    .. code-block:: text
 
-      make test
+      $ make test
 
 #. Create a pull request.
 

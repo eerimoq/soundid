@@ -1,7 +1,7 @@
 test:
 	python3 setup.py test
 	$(MAKE) test-sdist
-	codespell -d $$(git ls-files)
+	codespell -d $$(git ls-files | grep -v mp3)
 
 test-sdist:
 	rm -rf dist

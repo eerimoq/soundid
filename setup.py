@@ -25,6 +25,10 @@ setup(name='soundid',
       url='https://github.com/eerimoq/soundid',
       packages=find_packages(exclude=['tests']),
       test_suite="tests",
+      install_requires=[
+          'humanfriendly',
+          'tinytag'
+      ],
       entry_points = {
           'console_scripts': ['soundid=soundid.__init__:_main']
       })
