@@ -35,9 +35,15 @@ Show basic information about the database ``db.sid``.
 .. code-block:: text
 
    $ soundid database_info db.sid
-   1. Foo Band - Foo Song (0m5s, 4520 hashes)
-   2. Bar Artist - Bar Song (0m4s, 3023 hashes)
+   1. Foo Band - Foo Song (4520 hashes)
+   2. Bar Artist - Bar Song (3023 hashes)
    $
+
+Combine two databases into one. Duplicates are only added once.
+
+.. code-block:: text
+
+   $ soundid database_combine db1.sid db2.sid db.sid
 
 Try to find the title for the song ``tests/files/foo.mp3``.
 
